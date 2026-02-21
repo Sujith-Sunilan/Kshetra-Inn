@@ -11,7 +11,7 @@ export default function Footer() {
             <div className="flex items-center space-x-3 mb-4">
               <img
                 src="/Logo.png"
-                alt="K Hotels Logo"
+                alt="Kalathil Kshetra Inn Logo"
                 className="h-12 w-12 object-contain bg-white rounded-full p-1"
               />
               <h3 className="text-xl font-bold">Kalathil Kshetra Inn Hotels</h3>
@@ -32,11 +32,9 @@ export default function Footer() {
                 </p>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-green-500" />
+                <Phone className="w-5 h-5 text-blue-500" />
                 <a
-                  href="https://wa.me/917994491933"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="tel:+917994491933"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   +91 7994491933
@@ -74,9 +72,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://wa.me/917994491933"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="tel:+917994491933"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Book Now
@@ -88,7 +84,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            &copy; {currentYear} K Hotels, Guruvayoor. All rights reserved.
+            &copy; {currentYear} Kalathil Kshetra Inn, Guruvayoor. All rights reserved.
           </p>
         </div>
       </div>

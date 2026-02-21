@@ -1,10 +1,10 @@
 import { Phone } from 'lucide-react';
 
 export default function Header() {
-  const whatsappNumber = '9179944919933';
+  
 
-  const handleWhatsAppClick = () => {
-    window.open(`https://wa.me/${whatsappNumber}`, '_blank');
+  const handleCallClick = () => {
+    window.location.href = `tel:+917994491933`;
   };
 
   return (
@@ -24,11 +24,11 @@ export default function Header() {
           </div>
 
           <button
-            onClick={handleWhatsAppClick}
-            className="flex items-center space-x-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition-colors duration-300 shadow-md"
+            onClick={handleCallClick}
+            className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-300 shadow-md"
           >
             <Phone className="w-4 h-4" />
-            <span className="hidden sm:inline">WhatsApp</span>
+            <span className="hidden sm:inline">Call Now</span>
           </button>
         </div>
       </div>

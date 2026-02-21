@@ -1,10 +1,10 @@
 import { Phone, MapPin, Mail, Clock } from 'lucide-react';
 
 export default function Contact() {
-  const whatsappNumber = '9179944919933';
+  
 
   const handleWhatsAppClick = () => {
-    window.open(`https://wa.me/${whatsappNumber}`, '_blank');
+    window.open(`https://wa.me/917994491933`, '_blank');
   };
 
   return (
@@ -49,7 +49,7 @@ export default function Contact() {
                     onClick={handleWhatsAppClick}
                     className="text-green-600 hover:text-green-700 font-medium hover:underline"
                   >
-                    +91 7994491933
+                    +917994491933
                   </button>
                 </div>
               </div>

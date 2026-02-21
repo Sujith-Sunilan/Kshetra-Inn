@@ -8,7 +8,7 @@ export default function Hero() {
           <div className="flex justify-center mb-6">
             <img
               src="/Logo.png"
-              alt="K Hotels Logo"
+              alt="Kalathil Kshetra Inn Logo"
               className="h-32 w-32 object-contain"
             />
           </div>
@@ -31,7 +31,7 @@ export default function Hero() {
           </div>
 
           <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-8 leading-relaxed">
-            Experience comfort and convenience at K Hotels, your perfect stay near the sacred Guruvayoor Temple.
+            Experience comfort and convenience at Kalathil Kshetra Inn, your perfect stay near the sacred Guruvayoor Temple.
             We offer premium accommodation with modern amenities and traditional hospitality.
           </p>
 
