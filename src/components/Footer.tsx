@@ -27,8 +27,7 @@ export default function Footer() {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-amber-500 mt-1" />
                 <p className="text-gray-400">
-                  Near Guruvayoor Temple<br />
-                  Guruvayoor, Kerala
+                  <a href="https://maps.app.goo.gl/4RWpK74nMX9BADcf7">Go to Google Maps</a>
                 </p>
               </div>
               <div className="flex items-center space-x-3">

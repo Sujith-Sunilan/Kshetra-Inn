@@ -33,8 +33,7 @@ export default function Contact() {
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Location</h4>
                   <p className="text-gray-600">
-                    Near Guruvayoor Temple<br />
-                    Guruvayoor, Kerala
+                    <a href="https://maps.app.goo.gl/4RWpK74nMX9BADcf7">Click to Open in Google Maps</a>
                   </p>
                 </div>
               </div>
