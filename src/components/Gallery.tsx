@@ -3,19 +3,19 @@ import { Image } from 'lucide-react';
 const galleryImages = [
   {
     id: 1,
-    title: 'Delux Room',
+    title: 'Deluxe Room',
     category: 'Rooms',
     image: '/delux1.jpg',
   },
   {
     id: 1,
-    title: 'Delux Room',
+    title: 'Deluxe Room',
     category: 'Rooms',
     image: '/delux2.jpg',
   },
   {
     id: 1,
-    title: 'Delux Room',
+    title: 'Deluxe Room',
     category: 'Rooms',
     image: '/deluxbath.jpg',
   },
