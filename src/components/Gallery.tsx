@@ -16,7 +16,7 @@ const galleryImages = [
   {
     id: 1,
     title: 'Deluxe Room',
-    category: 'Rooms',
+    category: 'Bathroom',
     image: '/deluxbath.jpg',
   },
   {
@@ -58,14 +58,32 @@ const galleryImages = [
   {
     id: 2,
     title: 'Suite Room',
-    category: 'Rooms',
+    category: 'Living Room',
     image: '/suit7.jpg',
   },
   {
     id: 2,
     title: 'Suite Room',
-    category: 'Rooms',
+    category: 'Bathroom',
     image: '/suitbath.jpg',
+  },
+  {
+    id: 2,
+    title: 'Family Room',
+    category: 'Room',
+    image: '/Family 3.JPG',
+  },
+  {
+    id: 2,
+    title: 'Family Room',
+    category: 'Room',
+    image: '/Family 4.JPG',
+  },
+  {
+    id: 2,
+    title: 'Family Room',
+    category: 'Room',
+    image: '/Family 5.JPG',
   },
   {
     id: 2,
@@ -88,7 +106,7 @@ const galleryImages = [
   {
     id: 2,
     title: 'Dormitory',
-    category: 'Rooms',
+    category: 'Bathroom',
     image: '/Dorm3.JPG',
   },
   {
